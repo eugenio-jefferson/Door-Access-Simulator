@@ -11,6 +11,9 @@ public class CardReadEvent {
 
     private AccessDirection direction;
 
+    public CardReadEvent() {
+    }
+
     public CardReadEvent(String userId, LocalDateTime timestamp, AccessDirection direction) {
         this.userId = userId;
         this.timestamp = timestamp;
