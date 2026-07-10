@@ -26,3 +26,9 @@ replay_pid*
 # IDE
 .vscode/
 *.code-workspace
+
+# Environment Variables
+.env
+
+# Build
+target/
